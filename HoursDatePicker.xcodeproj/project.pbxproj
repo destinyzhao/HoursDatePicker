@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA51DD7A1CEEE3F30016A53E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA51DD791CEEE3F30016A53E /* main.m */; };
+		FA51DD7D1CEEE3F30016A53E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA51DD7C1CEEE3F30016A53E /* AppDelegate.m */; };
+		FA51DD801CEEE3F30016A53E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA51DD7F1CEEE3F30016A53E /* ViewController.m */; };
+		FA51DD831CEEE3F30016A53E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA51DD811CEEE3F30016A53E /* Main.storyboard */; };
+		FA51DD851CEEE3F30016A53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA51DD841CEEE3F30016A53E /* Assets.xcassets */; };
+		FA51DD881CEEE3F30016A53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA51DD861CEEE3F30016A53E /* LaunchScreen.storyboard */; };
+		FA51DD931CEEE3F30016A53E /* HoursDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA51DD921CEEE3F30016A53E /* HoursDatePickerTests.m */; };
+		FA51DD9E1CEEE3F30016A53E /* HoursDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA51DD9D1CEEE3F30016A53E /* HoursDatePickerUITests.m */; };
+		FA51DDB01CEEE4420016A53E /* HoursDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA51DDAF1CEEE4420016A53E /* HoursDatePicker.xib */; };
+		FA51DDB61CEEE63C0016A53E /* HoursDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FA51DDB51CEEE63C0016A53E /* HoursDatePicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA51DD8F1CEEE3F30016A53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA51DD6D1CEEE3F20016A53E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA51DD741CEEE3F30016A53E;
+			remoteInfo = HoursDatePicker;
+		};
+		FA51DD9A1CEEE3F30016A53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA51DD6D1CEEE3F20016A53E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA51DD741CEEE3F30016A53E;
+			remoteInfo = HoursDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA51DD751CEEE3F30016A53E /* HoursDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoursDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA51DD791CEEE3F30016A53E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA51DD7B1CEEE3F30016A53E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA51DD7C1CEEE3F30016A53E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA51DD7E1CEEE3F30016A53E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA51DD7F1CEEE3F30016A53E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA51DD821CEEE3F30016A53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA51DD841CEEE3F30016A53E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA51DD871CEEE3F30016A53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA51DD891CEEE3F30016A53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA51DD8E1CEEE3F30016A53E /* HoursDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoursDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA51DD921CEEE3F30016A53E /* HoursDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoursDatePickerTests.m; sourceTree = "<group>"; };
+		FA51DD941CEEE3F30016A53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA51DD991CEEE3F30016A53E /* HoursDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoursDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA51DD9D1CEEE3F30016A53E /* HoursDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoursDatePickerUITests.m; sourceTree = "<group>"; };
+		FA51DD9F1CEEE3F30016A53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA51DDAF1CEEE4420016A53E /* HoursDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HoursDatePicker.xib; sourceTree = "<group>"; };
+		FA51DDB41CEEE63C0016A53E /* HoursDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoursDatePicker.h; sourceTree = "<group>"; };
+		FA51DDB51CEEE63C0016A53E /* HoursDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoursDatePicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA51DD721CEEE3F30016A53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA51DD8B1CEEE3F30016A53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA51DD961CEEE3F30016A53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA51DD6C1CEEE3F20016A53E = {
+			isa = PBXGroup;
+			children = (
+				FA51DD771CEEE3F30016A53E /* HoursDatePicker */,
+				FA51DD911CEEE3F30016A53E /* HoursDatePickerTests */,
+				FA51DD9C1CEEE3F30016A53E /* HoursDatePickerUITests */,
+				FA51DD761CEEE3F30016A53E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA51DD761CEEE3F30016A53E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA51DD751CEEE3F30016A53E /* HoursDatePicker.app */,
+				FA51DD8E1CEEE3F30016A53E /* HoursDatePickerTests.xctest */,
+				FA51DD991CEEE3F30016A53E /* HoursDatePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA51DD771CEEE3F30016A53E /* HoursDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				FA51DDAB1CEEE40E0016A53E /* 24HDatePicker */,
+				FA51DD7B1CEEE3F30016A53E /* AppDelegate.h */,
+				FA51DD7C1CEEE3F30016A53E /* AppDelegate.m */,
+				FA51DD7E1CEEE3F30016A53E /* ViewController.h */,
+				FA51DD7F1CEEE3F30016A53E /* ViewController.m */,
+				FA51DD811CEEE3F30016A53E /* Main.storyboard */,
+				FA51DD841CEEE3F30016A53E /* Assets.xcassets */,
+				FA51DD861CEEE3F30016A53E /* LaunchScreen.storyboard */,
+				FA51DD891CEEE3F30016A53E /* Info.plist */,
+				FA51DD781CEEE3F30016A53E /* Supporting Files */,
+			);
+			path = HoursDatePicker;
+			sourceTree = "<group>";
+		};
+		FA51DD781CEEE3F30016A53E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA51DD791CEEE3F30016A53E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA51DD911CEEE3F30016A53E /* HoursDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA51DD921CEEE3F30016A53E /* HoursDatePickerTests.m */,
+				FA51DD941CEEE3F30016A53E /* Info.plist */,
+			);
+			path = HoursDatePickerTests;
+			sourceTree = "<group>";
+		};
+		FA51DD9C1CEEE3F30016A53E /* HoursDatePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA51DD9D1CEEE3F30016A53E /* HoursDatePickerUITests.m */,
+				FA51DD9F1CEEE3F30016A53E /* Info.plist */,
+			);
+			path = HoursDatePickerUITests;
+			sourceTree = "<group>";
+		};
+		FA51DDAB1CEEE40E0016A53E /* 24HDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				FA51DDB41CEEE63C0016A53E /* HoursDatePicker.h */,
+				FA51DDB51CEEE63C0016A53E /* HoursDatePicker.m */,
+				FA51DDAF1CEEE4420016A53E /* HoursDatePicker.xib */,
+			);
+			path = 24HDatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA51DD741CEEE3F30016A53E /* HoursDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA51DDA21CEEE3F30016A53E /* Build configuration list for PBXNativeTarget "HoursDatePicker" */;
+			buildPhases = (
+				FA51DD711CEEE3F30016A53E /* Sources */,
+				FA51DD721CEEE3F30016A53E /* Frameworks */,
+				FA51DD731CEEE3F30016A53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoursDatePicker;
+			productName = HoursDatePicker;
+			productReference = FA51DD751CEEE3F30016A53E /* HoursDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA51DD8D1CEEE3F30016A53E /* HoursDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA51DDA51CEEE3F30016A53E /* Build configuration list for PBXNativeTarget "HoursDatePickerTests" */;
+			buildPhases = (
+				FA51DD8A1CEEE3F30016A53E /* Sources */,
+				FA51DD8B1CEEE3F30016A53E /* Frameworks */,
+				FA51DD8C1CEEE3F30016A53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA51DD901CEEE3F30016A53E /* PBXTargetDependency */,
+			);
+			name = HoursDatePickerTests;
+			productName = HoursDatePickerTests;
+			productReference = FA51DD8E1CEEE3F30016A53E /* HoursDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA51DD981CEEE3F30016A53E /* HoursDatePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA51DDA81CEEE3F30016A53E /* Build configuration list for PBXNativeTarget "HoursDatePickerUITests" */;
+			buildPhases = (
+				FA51DD951CEEE3F30016A53E /* Sources */,
+				FA51DD961CEEE3F30016A53E /* Frameworks */,
+				FA51DD971CEEE3F30016A53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA51DD9B1CEEE3F30016A53E /* PBXTargetDependency */,
+			);
+			name = HoursDatePickerUITests;
+			productName = HoursDatePickerUITests;
+			productReference = FA51DD991CEEE3F30016A53E /* HoursDatePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA51DD6D1CEEE3F20016A53E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FA51DD741CEEE3F30016A53E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FA51DD8D1CEEE3F30016A53E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA51DD741CEEE3F30016A53E;
+					};
+					FA51DD981CEEE3F30016A53E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA51DD741CEEE3F30016A53E;
+					};
+				};
+			};
+			buildConfigurationList = FA51DD701CEEE3F20016A53E /* Build configuration list for PBXProject "HoursDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA51DD6C1CEEE3F20016A53E;
+			productRefGroup = FA51DD761CEEE3F30016A53E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA51DD741CEEE3F30016A53E /* HoursDatePicker */,
+				FA51DD8D1CEEE3F30016A53E /* HoursDatePickerTests */,
+				FA51DD981CEEE3F30016A53E /* HoursDatePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA51DD731CEEE3F30016A53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA51DDB01CEEE4420016A53E /* HoursDatePicker.xib in Resources */,
+				FA51DD881CEEE3F30016A53E /* LaunchScreen.storyboard in Resources */,
+				FA51DD851CEEE3F30016A53E /* Assets.xcassets in Resources */,
+				FA51DD831CEEE3F30016A53E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA51DD8C1CEEE3F30016A53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA51DD971CEEE3F30016A53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA51DD711CEEE3F30016A53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA51DD801CEEE3F30016A53E /* ViewController.m in Sources */,
+				FA51DDB61CEEE63C0016A53E /* HoursDatePicker.m in Sources */,
+				FA51DD7D1CEEE3F30016A53E /* AppDelegate.m in Sources */,
+				FA51DD7A1CEEE3F30016A53E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA51DD8A1CEEE3F30016A53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA51DD931CEEE3F30016A53E /* HoursDatePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA51DD951CEEE3F30016A53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA51DD9E1CEEE3F30016A53E /* HoursDatePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA51DD901CEEE3F30016A53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA51DD741CEEE3F30016A53E /* HoursDatePicker */;
+			targetProxy = FA51DD8F1CEEE3F30016A53E /* PBXContainerItemProxy */;
+		};
+		FA51DD9B1CEEE3F30016A53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA51DD741CEEE3F30016A53E /* HoursDatePicker */;
+			targetProxy = FA51DD9A1CEEE3F30016A53E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA51DD811CEEE3F30016A53E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA51DD821CEEE3F30016A53E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA51DD861CEEE3F30016A53E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA51DD871CEEE3F30016A53E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA51DDA01CEEE3F30016A53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA51DDA11CEEE3F30016A53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA51DDA31CEEE3F30016A53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoursDatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.HoursDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA51DDA41CEEE3F30016A53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoursDatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.HoursDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA51DDA61CEEE3F30016A53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoursDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.HoursDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoursDatePicker.app/HoursDatePicker";
+			};
+			name = Debug;
+		};
+		FA51DDA71CEEE3F30016A53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoursDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.HoursDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoursDatePicker.app/HoursDatePicker";
+			};
+			name = Release;
+		};
+		FA51DDA91CEEE3F30016A53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HoursDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.HoursDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoursDatePicker;
+			};
+			name = Debug;
+		};
+		FA51DDAA1CEEE3F30016A53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HoursDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.HoursDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoursDatePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA51DD701CEEE3F20016A53E /* Build configuration list for PBXProject "HoursDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA51DDA01CEEE3F30016A53E /* Debug */,
+				FA51DDA11CEEE3F30016A53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA51DDA21CEEE3F30016A53E /* Build configuration list for PBXNativeTarget "HoursDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA51DDA31CEEE3F30016A53E /* Debug */,
+				FA51DDA41CEEE3F30016A53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA51DDA51CEEE3F30016A53E /* Build configuration list for PBXNativeTarget "HoursDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA51DDA61CEEE3F30016A53E /* Debug */,
+				FA51DDA71CEEE3F30016A53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA51DDA81CEEE3F30016A53E /* Build configuration list for PBXNativeTarget "HoursDatePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA51DDA91CEEE3F30016A53E /* Debug */,
+				FA51DDAA1CEEE3F30016A53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA51DD6D1CEEE3F20016A53E /* Project object */;
+}
